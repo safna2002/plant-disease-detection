@@ -6,23 +6,26 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: HACKHYPE
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: FATHIMA SAFNA K.Y- KMEA ENGINEERING COLLEGE 
+- Member 2: FIDHA FATHIMA C.N - KMEA ENGINEERING COLLEGE
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Your project is a 'Django web application for plant disease detection'.  
+It provides a 'database of plant diseases' with details like symptoms, causes, treatments, and prevention.  
+Users can 'search diseases by symptoms or names', and also 'upload plant photos' for AI‑powered predictions using a TensorFlow model.  
+The app combines a clean frontend with machine learning to help farmers and researchers quickly identify plant health issues.
 
 ### The Problem statement
-[What problem are you solving?]
+Farmers and growers often struggle to accurately identify plant diseases in the early stages because many symptoms look similar and expert diagnosis is not always accessible. This leads to delayed treatment, crop loss, and reduced productivity. Traditional methods of diagnosis are time‑consuming and require specialized knowledge. Therefore, there is a need for a user‑friendly system that allows quick disease identification through symptom search and AI‑powered photo analysis, helping farmers take timely action to protect their crops.
 
 ### The Solution
-[How are you solving it?]
+This project solves the problem of 'slow and difficult plant disease diagnosis'. Farmers often struggle to identify diseases accurately, which can lead to crop loss and delayed treatment. By combining a 'searchable database of plant diseases' with an **AI-powered photo analysis tool**, the app makes diagnosis faster, easier, and more accessible. It helps users quickly find symptoms, causes, and treatments, supporting better crop health management.
 
 ---
 
@@ -31,25 +34,19 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: Python, CSS,JavaScript.
+- Frameworks used: Django,Tensorflow
+- Libraries used: django.db.models,tensorflow.keras,numpy,pillow
+- Tools used: VSCode
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Disease Database – Stores detailed information about plant diseases including symptoms, causes, treatments, prevention, and images.
+- Feature 2: Search Functionality – Allows users to quickly find diseases by typing keywords related to symptoms or names.
+- Feature 3: Photo Upload & AI Analysis – Users can upload plant photos, and a TensorFlow/Keras model predicts possible diseases.
+- Feature 4:Detailed Disease Pages – Provides comprehensive information on each disease, helping users understand and manage plant health effectively.
 
 ---
 
@@ -58,24 +55,25 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+
+# Clone the repository
+git clone <your-repo-link>
+cd my_prj
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Apply migrations
+python manage.py migrate
+
+# Create superuser (optional, for admin panel)
+python manage.py createsuperuser
+
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+# Start Django server
+python manage.py runserver
 
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
@@ -83,14 +81,10 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1899" height="712" alt="Screenshot 2026-02-28 102155" src="https://github.com/user-attachments/assets/fa85f7e3-cf47-4287-a950-723868f146c9" />
+<img width="1874" height="923" alt="Screenshot 2026-02-28 102037" src="https://github.com/user-attachments/assets/b2c08219-69e0-4667-b7cc-1ccebfdd04d7" />
+<img width="1911" height="912" alt="Screenshot 2026-02-28 102019" src="https://github.com/user-attachments/assets/c1484d39-a51d-48d1-a823-9dfe43b175f2" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 #### Diagrams
 
@@ -104,32 +98,6 @@ List the key features of your project:
 ![Workflow](docs/workflow.png)
 *Add caption explaining your workflow*
 
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 ## Additional Documentation
 
